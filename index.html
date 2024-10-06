@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Celsius</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Articles</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </section>
+
+    <!--Section 2-->
+    <div class="grid-container">
+      <div class="item1 grid-item">Projects</div>
+      <div class="item2 grid-item">HTML Only Portfolio</div>
+      <div class="item3 grid-item">Calculator</div>
+      <div class="item4 grid-item">Quit App</div>
+      <div class="item5 grid-item">Countdown Timer</div>
+      <div class="item6 grid-item">Product Upcoming Page</div>
+      <div class="item7 grid-item">Work Experience</div>
+      <div class="item8 grid-item">
+        roadmap.sh
+        <p>Solved all the frontend projects</p>
+        <a href="">Visit my Profile</a>
+      </div>
+      <div class="item9 grid-item">
+        OpenSource Work
+        <p>
+          Contributed to 50 opensource projects. Made my own projects with 200
+          GitHub Stars.
+        </p>
+        <a href="">Visit my GitHub Profile</a>
+      </div>
+      <div class="item10 grid-item">Education</div>
+      <div class="item11 grid-item">
+        <p>
+          Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+          sessions.
+        </p>
+        <p>Courses I took :</p>
+        <ul>
+          <li>- Object Oriented Programming</li>
+          <li>- Data Structures and Algorithms</li>
+          <li>- Web Engineering</li>
+          <li>- Artificial Intelligence</li>
+          <li>- Human Computer Interaction</li>
+          <li>- Computer Graphics</li>
+          <li>- Database Management Systems</li>
+          <li>- Distributed Database Systems</li>
+          <li>- Discreet Mathematics</li>
+        </ul>
+      </div>
+    </div>
+    <!--Section 2-->
+    <!--Section 3-->
+    <div>
+      <h2>Reviews from my Teachers</h2>
+      <ul style="overflow: hidden">
+        <li class="comment main-comment">
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <br />
+          <p>Jane Doe</p>
+          <p>Assistant Professor</p>
+        </li>
+        <li class="comment">
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <br />
+          <p>Jane Doe</p>
+          <p>Assistant Professor</p>
+        </li>
+        <li class="comment">
+          <p>
+            John doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <br />
+          <p>Jane Doe</p>
+          <p>Assistant Professor</p>
+        </li>
+      </ul>
+    </div>
+    <!--Section 3-->
+
+    <footer>
+      <p>&copy; All rights reserved 2025</p>
+    </footer>
+  </body>
+</html>
